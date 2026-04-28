@@ -71,6 +71,7 @@ header {
     color: white;
     padding: 1rem;
     margin-left: 3px;
+    font-size: x-large;
 }
 
 .containercontent {
@@ -152,7 +153,7 @@ nav a:hover {
     width: 350px;
     height: 300px;
     position: relative;
-    top: 117px;
+    top: 105px;
     right: 450px;
 }
 .current-weather-section {
@@ -185,19 +186,39 @@ nav a:hover {
 footer {
     background-color:darkblue;
     color: white;
-    text-align: center;
-    height: 300px;  
+    font-size: 0.9rem;
+    padding: 20px;
   
   
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.chamber-information {
+  max-width: 300px;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .socialmedia img {
-    width: 50px;
-    margin: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
-.socialmedia a {
-    text-decoration: none;
+
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+.p-div {
+  text-align: right;
+  max-width: 300px;
 }
 
 
@@ -342,7 +363,7 @@ footer {
   font-size: 1.5rem;
   color: white;
 }
-span {
+span.header {
   font-size: x-large;
 }
 
@@ -463,17 +484,6 @@ label {
     grid-template-columns: 1fr;
   }
 }
-
-
-
-/* MEMBERSHIP CARDS LAYOUT */
-
-
-/* CARD STYLING */
-
-
-
-
 .card a:hover {
   background:azure;
 }
