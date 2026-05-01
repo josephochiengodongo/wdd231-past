@@ -444,14 +444,7 @@ label {
 
 }
 
-.form input,
-.form select,
-.form textarea {
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid black;
-  border-radius: 4px;
-}
+
 
 .form input[type="submit"] {
   background:darkblue;
