@@ -423,10 +423,6 @@ label {
 
 
 /* FORM SECTION */
-.form {
-  display: flex;
-  flex-direction: column;
-}
 
 .form form {
   display: flex;
@@ -465,7 +461,7 @@ label {
 
 
 /* join */
-.card-level {
+.card-levell {
 background-color:white;
 }
 .card-level h3 {
