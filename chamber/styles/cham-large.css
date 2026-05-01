@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@mediaa (min-width: 900px) {
   section.home {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
