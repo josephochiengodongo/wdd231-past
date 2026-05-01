@@ -309,31 +309,9 @@ footer {
   justify-items: stretch;
   flex-direction: row;
   gap: 20px;
-}
-
-/* Section Styling */
-.top-grid section,.weather-box {
-    background-color: azure;
-    border: 1px solid blue;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    
   
 }
 
-
-
-
-/* Current Weather Layout */
-.weather-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
-    
-}
 
 
 
@@ -355,9 +333,6 @@ footer {
   font-size: 1.5rem;
   color: white;
 }
-span.header {
-  font-size: x-large;
-}
 
 
 .cta h2 {
@@ -368,11 +343,17 @@ span.header {
 
 /* GRID */
 
-#events,.weather-box {
+#events,.weather-box,.forecast-display {
   background: azure;
+  border: 1px solid blue;
   border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   color: black;
   margin-left: 4px;
+  width: 290px;
+  margin-top: 10px;
+  text-align: center;
+  
 }
 
 
