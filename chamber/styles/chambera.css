@@ -404,7 +404,6 @@ label {
   border: 1px solid black;
   border-radius: 12px;
   overflow: hidden;
-  box-sizing: 0 4px 10px rgba(0,0,0,0.1);
   padding: 0.75rem;
   margin-left: 4px;
   text-align: center;
