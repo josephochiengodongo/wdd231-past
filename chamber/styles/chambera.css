@@ -436,54 +436,6 @@ label {
 }
 
 /* DESKTOP */
-@media (min-width: 768px) {
-  .join-container {
-    flex-direction: row;
-  }
-
-  form {
-    flex: 2;
-  }
-
- 
-
-/* ANIMATION */
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-/* Small screens - cards below form */
-@media (max-width: 767px) {
-  .membership-cards {
-    grid-template-columns: 1fr;
-    display: grid;
-    gap: 1.5rem;
-  }
-}
-
-/* Medium screens */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .membership-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Large screens - cards to the right of form */
-@media (min-width: 1024px) {
-  .membership-section {
-    float: right;
-    width: 35%;
-    margin-left: 2rem;
-  }
-
-  .membership-cards {
-    grid-template-columns: 1fr;
-  }
-}
 .card a:hover {
   background:azure;
 }
@@ -565,7 +517,7 @@ label {
 
 /* RESPONSIVE (mobile) */
 @media (max-width: 768px) {
-  .join-container {
+  .join-cards {
     grid-template-columns: 1fr;
   }
 }
@@ -590,7 +542,7 @@ background-color:white;
   color: black;
 
 }
-}
+
 /* ===== GENERAL ===== */
 main {
   padding: 1rem;
