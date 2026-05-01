@@ -1,14 +1,13 @@
-@mediaa (min-width: 900px) {
+@media (min-width: 900px) {
   section.home {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
-  }
-
-  section.home {
     padding: 1.5rem;
   }
+
+
 
   .join-container {
     grid-template-columns: 2fr 1fr;
