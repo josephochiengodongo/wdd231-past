@@ -77,7 +77,6 @@ header {
 .containercontent {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .containercontent img {
@@ -93,9 +92,6 @@ nav a {
   
 }
 
-nav a:hover {
-    color: azure;
-}
 
 /* Hero Section */
 .hero {
@@ -206,16 +202,13 @@ footer {
 }
 
 .socialmedia img {
-    width: 30px;
-    height: 30px;
+    width: 120px;
+    height: 120px;
     cursor: pointer;
 }
 
 
-.social-media {
-    display: flex;
-    gap: 15px;
-}
+
 .p-div {
   text-align: right;
   max-width: 300px;
@@ -232,17 +225,16 @@ footer {
 #members.list {
     display: block;
     background-color: white;
-}
-
-#members.list .member-card {
     margin-bottom: 1rem;
 }
+
 
 .member-card {
     border: 1px solid blue;
     padding: 1rem;
     background: azure;
     border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 .view-buttons {
@@ -599,40 +591,40 @@ main {
 
 /* ===== CARD DESIGN ===== */
 
-.card h2 {
+.cardd h2 {
   font-size: 1.2rem;
   margin: 0.5rem 1rem;
 }
 
-.card figure {
+.cardd figure {
   margin: 0;
 }
 
-.card img {
+.cardr img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.card address {
+.cardd addresss {
   font-style: normal;
   font-size: 0.9rem;
   color: black;
   margin: 0.5rem 1rem;
 }
 
-.card p {
+.cardd p {
   font-size: 0.95rem;
   margin: 0.5rem 1rem 1rem;
   flex-grow: 1;
 }
 
-.card button {
+.cardd button {
   margin: 0 1rem 1rem;
   padding: 0.5rem;
   border: none;
-  background: blue;
-  color: white;
+  background:white;
+  color: blue;
   border-radius: 6px;
   cursor: pointer;
 }
